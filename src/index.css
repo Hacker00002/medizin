@@ -42,6 +42,18 @@
   opacity: 0;
 }
 
+.buttonHover {
+  opacity: 0;
+  transition: 0.25s opacity, 0.25s visibility,
+    transform 1.5s cubic-bezier(0, 0, 0.2, 1),
+    -webkit-transform 1.5s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.img:hover .buttonHover {
+  opacity: 1;
+  visibility: visible;
+}
+
 .img:hover .hoverLastImg {
   display: block;
   visibility: visible;
