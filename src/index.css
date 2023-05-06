@@ -60,3 +60,23 @@
   opacity: 1;
   transform: scale(1.1);
 }
+
+.content {
+  display: none;
+}
+
+.show-content {
+  display: inline;
+}
+
+@media (max-width: 680px) {
+  .img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 460px) {
+  .img {
+    width: 300px !important;
+  }
+}

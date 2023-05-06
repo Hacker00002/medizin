@@ -4,7 +4,7 @@ import { arr } from "./sizedata";
 const Sizebar = () => {
   return (
     <div className="container">
-      <div className="bg-[#f8f8f8] rounded-[5px] p-[15px] !w-[265px] mb-[22px]">
+      <div className="bg-[#f8f8f8] rounded-[5px] p-[15px] lg:!w-[265px] mb-[22px] w-[100%]">
         <h3 className="text-[20px] font-[500] mb-[22px] text-[#323232]">
           Size
         </h3>

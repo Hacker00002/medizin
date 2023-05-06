@@ -5,16 +5,14 @@ import Tooltip from "@mui/material/Tooltip";
 const Cards = () => {
   return (
     <div className="container">
-      <div className="flex items-center flex-wrap justify-between">
+      <div className="flex items-center flex-wrap lg:!justify-between justify-center">
         {arr.map((elem) => (
           <div key={elem.id}>
             <div className="img">
               <img
                 className="hoverImg cursor-pointer"
                 src={elem?.img}
-                alt=""
-                width={295}
-                height={295}
+                alt={elem?.name}
               />
               <img
                 className="hoverLastImg cursor-pointer"

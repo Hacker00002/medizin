@@ -8,7 +8,7 @@ import Settings from "../settingsbar/settings";
 
 const Allbar = () => {
   return (
-    <div className="flex container">
+    <div className="flex container flex-col-reverse lg:flex-row">
       <div>
         <div>
           <Searchbar />
